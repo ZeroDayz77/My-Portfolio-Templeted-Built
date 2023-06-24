@@ -28,9 +28,10 @@ function ContactForm() {
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
+            required
             type="text"
             name="name"
-            placeholder="Enter your name"
+            placeholder="What's your name?"
             value={name}
             onChange={(event) => setName(event.target.value)}
           />
@@ -43,8 +44,9 @@ function ContactForm() {
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
+            required
             name="email"
-            placeholder="Enter your email address"
+            placeholder="Got an email address?"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
           />
@@ -58,7 +60,8 @@ function ContactForm() {
             id="message"
             name="message"
             rows={5}
-            placeholder="Enter your message"
+            required
+            placeholder="Enter your message, I'm all ears..."
             value={message}
             onChange={(event) => setMessage(event.target.value)}
           />
@@ -72,10 +75,10 @@ function ContactForm() {
           <button 
             type="submit"
             disabled={state.submitting}
-            className="text-lg font-bold p-0.5 mt-6 w-44 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500"
+            className="text-lg font-bold p-0.5 mt-6 w-44 bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-500"
           >
             <div className="bg-white">
-              <span className="block p-2 font-semibold bg-white font-bold bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+              <span className="block p-2 font-semibold bg-white font-bold bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-500 bg-clip-text text-transparent">
                 Send
               </span>
           </div>
