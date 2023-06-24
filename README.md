@@ -115,6 +115,10 @@ Set up your contact account with Formspree.
 
 - **Dylan Arveson** - [https://github.com/dyyllaann](https://github.com/dyyllaann)
 
+## Modifiers
+
+- **Darnell Garcia** - [https://github.com/ZeroDayz77](https://github.com/ZeroDayz77)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -131,10 +135,16 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with npm)
 * [Google Chrome](https://google.com/chrome/)
 
-## Installation
+## Installation ( for the original repo )
 
 * `git clone https://github.com/dyyllaann/simplefolio-react.git` this repository
 * `cd simplefolio-react`
+* `npm install`
+
+## Installation ( for my repo if you like any of the additions I made )
+
+* `git clone https://github.com/ZeroDayz77/My-Portfolio-Templeted-Built.git` this repository
+* `cd My-Portfolio-Templeted-Built`
 * `npm install`
 
 ## Running / Development
