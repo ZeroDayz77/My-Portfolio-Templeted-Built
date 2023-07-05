@@ -1,16 +1,24 @@
 {
   "navigation": [
+    {
+			"title": "Home",
+			"url": "/"
+		},
 		{
 			"title": "About",
-			"url": "http://www.example.com/about"
+			"url": "#About"
 		},
 		{
 			"title": "My Projects",
-			"url": "http://www.example.com/portfolio"
+			"url": "#My Projects"
 		},
 		{
 			"title": "Contact Me",
-			"url": "http://www.example.com/contact"
+			"url": "#Contact Me"
+		},
+    {
+			"title": "My Blog",
+			"url": "https://darnellgarcia.blogspot.com/"
 		}
 	],
   "hero": {
@@ -39,7 +47,7 @@
   },
   "contact": {
     "title": "Contact Me",
-    "description": "This is where you can describe about your contact. The more you describe about your contact, the more chances you have!",
+    "description": "Interested in working with me? Feel free to send me a message!",
     "formId": "xdornkba"
   },
   "footer": {
