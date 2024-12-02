@@ -28,17 +28,17 @@
   "about": {
     "title": "About Me",
     "image": "/Professional Photo.jpg",
-    "primary": "My name is Darnell, I am a Computer Science student at the University of the West Indies and Software Engineer living in the caribbean island of Trinidad, currently learning more each day regarding CS / IT. I am dedicated and eager to learn new things each day, grow my understanding of technology and work towards being a part of something impactful to the world.",
+    "primary": "My name is Darnell, I am a Computer Science student at the University of the West Indies and Software Engineer living in the Caribbean island of Trinidad, currently learning more each day regarding CS / IT. I am dedicated and eager to learn new things each day, grow my understanding of technology and work towards being a part of something impactful to the world.",
     "primary2": "With familiarity in languages such as: C++ | C | Python | HTML | CSS | JavaScript | Java | C# | SQL | Kotlin. Knowledge of technologies like: Git / GitHub | Bash | React | Express | Node.js | Android Studio | Firebase | MongoDB | AWS | Linux. And interests in: Full Stack Engineering | UIX Design | Mobile App Development | General Purpose Software / Application Development | Embedded Systems | Machine Learning & Artificial Intelligence | Cloud Engineering | DevOps.",
     "secondary": "I am also an artist and competitive archer for many years!"
   },
   "projects": {
-    "_comment": "To add more projects just follow the above format, the code will dynamically create a new object set for the project view",
+    "_comment": "To add more projects just follow the above format, and the code will dynamically create a new object set for the project view",
     "title": "My Projects",
     "projects": [
       {
         "title": "Tempo",
-        "description": "This mobile app MVP was not only initially created in 2 weeks to challenge myself but to also act as a way to show my skill in learning new technologies and adapting to the task given to me. This was a good learning experience and reinforced the reason to me as to why we do computer science and technology as a hold, to solve real-world problems. The problem for me was, I no longer had a music app. There were many issues, unused features and ideas.",
+        "description": "This mobile app MVP was not only initially created in 2 weeks to challenge myself but also to act as a way to show my skill in learning new technologies and adapting to the task given to me. This was a good learning experience and reinforced the reason why we do computer science and technology as a hold, to solve real-world problems. The problem for me was, I no longer had a music app. There were many issues, unused features and ideas.",
         "url": "https://github.com/ZeroDayz77/My-Music-App-Tempo-/releases/tag/v0.1.0-alpha",
         "github": "https://github.com/ZeroDayz77/My-Music-App-Tempo-",
         "image": "/Mockup 5 collage.png"
@@ -52,14 +52,16 @@
       },
       {
         "title": "ImpactWhit",
-        "description": "ImpactWhit values Excellence, Vision and Community and as such invests in people, organizations and initiatives committed to driving growth and impact on an individual level and global level. Tasked with redesigning the site to a new modern feel, with little to no code. The websie was redisigned using Figma and developed on Webflow. With custom backedn webhooks to comply with specific business needs for emailing.",
+        "description": "ImpactWhit values Excellence, Vision and Community and as such invests in people, organizations and initiatives committed to driving growth and impact on an individual level and global level. Tasked with redesigning the site to a new modern feel, with little to no code. The website was redesigned using Figma and developed on Webflow. With custom backend webhooks to comply with specific business needs for emailing.",
         "url": "https://www.impactwhit.com/",
+	"github": "https://github.com/ZeroDayz77/",
         "image": "/ImpactWhit Highlight.png"
       },
       {
         "title": "O40 Holiday Cottages",
         "description": "O40 Holiday Cottages is a unique hospitality experience designed exclusively for individuals aged 40 and older, providing a tranquil retreat in the heart of Jamaica. Built using WordPress, the website includes a custom menu ordering feature available only to registered guests staying at O40. This system offers time-based meal options, special discounts, and personalized selections, ensuring a tailored and seamless dining experience that complements the serene vacation atmosphere.",
         "url": "https://o40holidaycottages.com/",
+	"github": "https://github.com/ZeroDayz77/",
         "image": "/O40 Highlight.png"
       }
     ]
