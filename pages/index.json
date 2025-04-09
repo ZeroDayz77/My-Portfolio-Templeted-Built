@@ -54,15 +54,22 @@
         "title": "ImpactWhit",
         "description": "ImpactWhit values Excellence, Vision and Community and as such invests in people, organizations and initiatives committed to driving growth and impact on an individual level and global level. Tasked with redesigning the site to a new modern feel, with little to no code. The website was redesigned using Figma and developed on Webflow. With custom backend webhooks to comply with specific business needs for emailing.",
         "url": "https://www.impactwhit.com/",
-	"github": "https://github.com/ZeroDayz77/",
+	      "github": "https://github.com/ZeroDayz77/",
         "image": "/ImpactWhit Highlight.png"
       },
       {
         "title": "O40 Holiday Cottages",
         "description": "O40 Holiday Cottages is a unique hospitality experience designed exclusively for individuals aged 40 and older, providing a tranquil retreat in the heart of Jamaica. Built using WordPress, the website includes a custom menu ordering feature available only to registered guests staying at O40. This system offers time-based meal options, special discounts, and personalized selections, ensuring a tailored and seamless dining experience that complements the serene vacation atmosphere.",
         "url": "https://o40holidaycottages.com/",
-	"github": "https://github.com/ZeroDayz77/",
+	      "github": "https://github.com/ZeroDayz77/",
         "image": "/O40 Highlight.png"
+      },
+      {
+        "title": "GSPEN Website",
+        "description": "Built and maintained the GSPEN website using WordPress, integrating custom PHP code to extend site functionality beyond standard plugins. Designed and implemented APIs to connect with external services, enabling seamless data synchronization and dynamic content delivery.",
+        "url": "https://gspen.net.net/",
+	      "github": "https://github.com/ZeroDayz77/",
+        "image": "/GSPEN Highlight.png"
       }
     ]
   },
