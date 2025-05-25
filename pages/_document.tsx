@@ -16,6 +16,11 @@ export default function Document() {
           content="Welcome to my personal portfolio website"
           key="desc"
         />
+        <meta property="og:title" content="Darnell Garcia - Portfolio" />
+        <meta property="og:description" content="Welcome to my personal portfolio website" />
+        <meta property="og:image" content="ZeroDayz77/My-Portfolio-Templeted-Built/public/favicon.ico" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://darnellgarcia.vercel.app/" />
       <Head />
       <body className='text-black'>
         <NextScript />
