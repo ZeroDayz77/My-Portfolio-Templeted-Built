@@ -5,7 +5,7 @@ const Header = () => {
   const navigation = config.navigation;
 
   return (
-    <div className="header">
+    <div className="header bg-white dark:bg-black">
       <div className="header__menu">
         <ul className="flex flex-col lg:flex-row px-4 lg:px-32 gap-y-4 lg:gap-x-10 items-center">
           {navigation.map((item) => (
