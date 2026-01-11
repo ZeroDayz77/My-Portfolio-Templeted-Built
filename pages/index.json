@@ -9,8 +9,8 @@
 			"url": "#About"
 		},
 		{
-			"title": "My Projects",
-			"url": "#My Projects"
+			"title": "My Work/Projects",
+			"url": "#My Work/Projects"
 		},
 		{
 			"title": "Contact Me",
@@ -34,12 +34,12 @@
   },
   "projects": {
     "_comment": "To add more projects just follow the above format, and the code will dynamically create a new object set for the project view",
-    "title": "My Projects",
+    "title": "My Work/Projects",
     "projects": [
       {
         "title": "Tempo",
         "description": "This mobile app MVP was not only initially created in 2 weeks to challenge myself but also to act as a way to show my skill in learning new technologies and adapting to the task given to me. This was a good learning experience and reinforced the reason why we do computer science and technology as a hold, to solve real-world problems. The problem for me was, I no longer had a music app. There were many issues, unused features and ideas.",
-        "url": "https://github.com/ZeroDayz77/My-Music-App-Tempo-/releases/tag/v0.1.0-alpha",
+        "url": "https://github.com/ZeroDayz77/My-Music-App-Tempo-/releases/tag/v1.0.0",
         "github": "https://github.com/ZeroDayz77/My-Music-App-Tempo-",
         "image": "/Mockup 5 collage.png"
       },
@@ -58,11 +58,11 @@
         "image": "/ImpactWhit Highlight.png"
       },
       {
-        "title": "O40 Holiday Cottages",
-        "description": "O40 Holiday Cottages is a unique hospitality experience designed exclusively for individuals aged 40 and older, providing a tranquil retreat in the heart of Jamaica. Built using WordPress, the website includes a custom menu ordering feature available only to registered guests staying at O40. This system offers time-based meal options, special discounts, and personalized selections, ensuring a tailored and seamless dining experience that complements the serene vacation atmosphere.",
-        "url": "https://o40holidaycottages.com/",
-	      "github": "https://github.com/ZeroDayz77/",
-        "image": "/O40 Highlight.png"
+        "title": "BessPay Plugin & Website",
+        "description": "BessPay is a cross-border payment and marketplace platform where I worked across frontend, backend, infrastructure, and security. I built and maintained features using Next.js, React, Sharetribe, Bun.js, Typescript, and PostgreSQL, integrated Interledger Open Payments (ILP), and helped deploy secure, scalable services on GCP using Docker and Terraform.",
+        "url": "https://besspay.net",
+        "github": "https://github.com/BessPay",
+        "image": "/BessPay Highlight.png"
       },
       {
         "title": "GSPEN",
@@ -80,7 +80,6 @@
   },
   "footer": {
 		"linkedin": "https://www.linkedin.com/in/darnell-garcia/",
-		"twitter": "https://twitter.com/darnell__garcia",
 		"github": "https://github.com/ZeroDayz77"
 	}
 }
