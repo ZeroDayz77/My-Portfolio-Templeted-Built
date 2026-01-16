@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header__menu">
         <ul className="flex flex-col lg:flex-row px-4 lg:px-32 py-6 gap-y-4 lg:gap-x-10 items-center">
           {navigation.map((item) => (
-            <li className="mt-4 lg:mt-6 cursor-pointer" key={item.title}>
+            <li className="cursor-pointer" key={item.title}>
               <a
                 href={item.url}
                 target={item.title === "My Blog" ? "_blank" : undefined}
