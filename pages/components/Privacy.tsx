@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Introduction</h2>
             <p>
               Welcome to Production Zero. We respect your privacy and are committed to protecting your personal data. 
-              This privacy policy explains how we handle information in our applications, including Tempo and our MP3 Player.
+              This privacy policy explains how we handle information in our applications, including Tempo.
             </p>
           </section>
 
@@ -23,8 +23,6 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Information We Collect</h2>
             <p className="mb-2">Our apps may collect the following types of information:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>Usage data and app analytics</li>
-              <li>Device information (device type, operating system)</li>
               <li>Files you choose to interact with (audio files for the MP3 player)</li>
             </ul>
           </section>
@@ -33,27 +31,22 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">How We Use Your Information</h2>
             <p className="mb-2">We use the collected information to:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>Provide and maintain our applications</li>
-              <li>Improve user experience and app functionality</li>
-              <li>Analyze usage patterns to enhance our services</li>
-              <li>Troubleshoot technical issues</li>
+              <li>App functionality</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Data Storage and Security</h2>
             <p>
-              Your data is stored locally on your device whenever possible. We implement appropriate security measures 
-              to protect your information from unauthorized access, alteration, or destruction. However, no method of 
-              transmission over the internet is 100% secure.
+              Your data is stored locally on your device. Any and all connectivity to the internet is strictly to further enhance user experience.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Third-Party Services</h2>
             <p>
-              Our apps may use third-party services for analytics or other functionality. These services have their 
-              own privacy policies and we encourage you to review them.
+              Our apps may use third-party services for app functionality. These services have their 
+              own privacy policies and we encourage you to review them in your own time.
             </p>
           </section>
 
@@ -61,10 +54,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Your Rights</h2>
             <p className="mb-2">You have the right to:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>Access the personal data we hold about you</li>
-              <li>Request correction of your personal data</li>
-              <li>Request deletion of your personal data</li>
-              <li>Opt out of data collection where applicable</li>
+              <li>Request clarification about how your information is used</li>
             </ul>
           </section>
 
@@ -72,9 +62,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Age Restrictions</h2>
             <p>
               Our apps are intended for users aged 13 and older. By using our apps, you confirm that you meet 
-              this age requirement. We do not knowingly collect personal information from children under 13. 
-              If we discover that a child under 13 has provided us with personal information, we will delete 
-              such information immediately.
+              this age requirement.
             </p>
           </section>
 
