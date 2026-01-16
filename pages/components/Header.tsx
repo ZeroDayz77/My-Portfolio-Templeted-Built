@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header bg-white dark:bg-black">
       <div className="header__menu">
-        <ul className="flex flex-col lg:flex-row px-4 lg:px-32 gap-y-4 lg:gap-x-10 items-center">
+        <ul className="flex flex-col lg:flex-row px-4 lg:px-32 py-6 gap-y-4 lg:gap-x-10 items-center">
           {navigation.map((item) => (
             <li className="mt-4 lg:mt-6 cursor-pointer" key={item.title}>
               <a
