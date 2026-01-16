@@ -2,11 +2,6 @@ import React from 'react';
 
 export default function PrivacyPolicy() {
   const currentYear = new Date().getFullYear();
-  const lastUpdated = new Date().toLocaleDateString('en-US', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  });
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -86,8 +81,8 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Changes to This Privacy Policy</h2>
             <p>
-              We may update our privacy policy from time to time. We will notify you of any changes by posting 
-              the new privacy policy on this page and updating the "Last Updated" date.
+            We may update our privacy policy from time to time. We will notify you of any changes by posting 
+            the new privacy policy on this page and updating the &quot;Last Updated&quot; date.
             </p>
           </section>
 
@@ -96,7 +91,7 @@ export default function PrivacyPolicy() {
             <p>
               If you have any questions about this privacy policy or our practices, please contact us at:
             </p>
-            <p className="mt-2 font-medium">contact@productionzero.com</p>
+            <p className="mt-2 font-medium">darnellgarcia26@gmail.com</p>
           </section>
         </div>
 
