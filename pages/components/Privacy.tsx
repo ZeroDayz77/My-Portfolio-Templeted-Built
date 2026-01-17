@@ -4,6 +4,7 @@ export default function PrivacyPolicy() {
   const currentYear = new Date().getFullYear();
 
   return (
+    <title>Privacy Policy - Production Zero</title>
     <div className="min-h-screen bg-white dark:bg-black py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Privacy Policy</h1>

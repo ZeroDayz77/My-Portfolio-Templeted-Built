@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 export default function Home() {
   return (
     <>
+    <title>Darnell Garcia - Portfolio</title>
       <Header />
       <Hero />
       <About />

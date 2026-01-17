@@ -10,7 +10,7 @@ function ContactForm() {
 
   const [state, handleSubmit] = useForm(contact.formId);
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Thanks for reaching out!</p>;
   }
 
   return (

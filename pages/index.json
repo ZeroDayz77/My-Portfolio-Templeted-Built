@@ -17,12 +17,12 @@
 			"url": "#Contact Me"
 		},
     {
-			"title": "Privacy Policy",
-			"url": "/privacy"
-		},
-    {
 			"title": "My Blog",
 			"url": "https://darnellgarcia.blogspot.com/"
+		},
+    {
+			"title": "Privacy Policy",
+			"url": "/privacy"
 		}
 	],
   "hero": {
