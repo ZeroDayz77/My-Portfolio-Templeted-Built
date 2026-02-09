@@ -42,10 +42,10 @@
     "projects": [
       {
         "title": "Tempo",
-        "description": "This mobile app MVP was not only initially created in 2 weeks to challenge myself but also to act as a way to show my skill in learning new technologies and adapting to the task given to me. This was a good learning experience and reinforced the reason why we do computer science and technology as a hold, to solve real-world problems. The problem for me was, I no longer had a music app. There were many issues, unused features and ideas.",
-        "url": "https://github.com/ZeroDayz77/My-Music-App-Tempo-/releases/tag/v1.0.0",
-        "github": "https://github.com/ZeroDayz77/My-Music-App-Tempo-",
-        "image": "/Mockup 5 collage.png"
+        "description": "Tempo is a local music player built for listeners who want full control over their music. Designed with simplicity, performance, and privacy in mind, Tempo brings you back to what matters most: your music, your library, your rules. Tempo was created as my first side project and later released as a full app. It was built in Android using Java as a personal challenge to learn new technologies, adapt quickly, and solve a real problem I faced: not having a music app that truly fit my needs.",
+        "url": "https://play.google.com/store/apps/details?id=com.production_zero.tempo",
+        "github": "https://tempo-music.vercel.app/",
+        "image": "/Mockup 6 features.png"
       },
       {
         "title": "WeMeet",
