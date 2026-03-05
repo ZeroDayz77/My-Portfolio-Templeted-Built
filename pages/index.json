@@ -48,20 +48,6 @@
         "image": "/Mockup 6 features.png"
       },
       {
-        "title": "WeMeet",
-        "description": "Just got into university with absolutely no love life, well we at the Anti Lonely Association feel your pain. No more lonely nights with We Meet, a University dating app. The website was built using React and Vite and deployed on Vercel as part of a group project.",
-        "url": "https://we-meet-tt.vercel.app/",
-        "github": "https://github.com/ZeroDayz77/We-Meet",
-        "image": "/WeMeet Highlight.png"
-      },
-      {
-        "title": "ImpactWhit",
-        "description": "ImpactWhit values Excellence, Vision and Community and as such invests in people, organizations and initiatives committed to driving growth and impact on an individual level and global level. Tasked with redesigning the site to a new modern feel, with little to no code. The website was redesigned using Figma and developed on Webflow. With custom backend webhooks to comply with specific business needs for emailing.",
-        "url": "https://www.impactwhit.com/",
-	      "github": "https://github.com/ZeroDayz77/",
-        "image": "/ImpactWhit Highlight.png"
-      },
-      {
         "title": "BessPay Plugin & Website",
         "description": "BessPay is a cross-border payment and marketplace platform where I worked across frontend, backend, infrastructure, and security. I built and maintained features using Next.js, React, Sharetribe, Bun.js, Typescript, and PostgreSQL, integrated Interledger Open Payments (ILP), and helped deploy secure, scalable services on GCP using Docker and Terraform.",
         "url": "https://besspay.net",
@@ -74,6 +60,20 @@
         "url": "https://gspen.net/",
 	      "github": "https://github.com/ZeroDayz77/",
         "image": "/GSPEN Highlight.png"
+      },
+            {
+        "title": "ImpactWhit",
+        "description": "ImpactWhit values Excellence, Vision and Community and as such invests in people, organizations and initiatives committed to driving growth and impact on an individual level and global level. Tasked with redesigning the site to a new modern feel, with little to no code. The website was redesigned using Figma and developed on Webflow. With custom backend webhooks to comply with specific business needs for emailing.",
+        "url": "https://www.impactwhit.com/",
+	      "github": "https://github.com/ZeroDayz77/",
+        "image": "/ImpactWhit Highlight.png"
+      },
+      {
+        "title": "WeMeet",
+        "description": "Just got into university with absolutely no love life, well we at the Anti Lonely Association feel your pain. No more lonely nights with We Meet, a University dating app. The website was built using React and Vite and deployed on Vercel as part of a group project.",
+        "url": "https://we-meet-tt.vercel.app/",
+        "github": "https://github.com/ZeroDayz77/We-Meet",
+        "image": "/WeMeet Highlight.png"
       }
     ]
   },
