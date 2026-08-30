@@ -32,8 +32,79 @@
   "about": {
     "title": "About Me",
     "image": "/Professional Photo.jpg",
-    "primary": "I'm Darnell, a Computer Science major and Software Engineer from Trinidad. I help bridge the gap between creatives and engineers, taking ideas from concept to deployment. I've worked with teams of all sizes, from startups to Fortune 500 companies like GSPEN, CIBC Caribbean, and Microsoft, always eager to learn and build impactful tech.",
-    "primary2": "With familiarity in languages such as: C++ | C | Python | HTML | CSS | JavaScript | Java | C# | SQL | Kotlin. Knowledge of technologies like: Git / GitHub | Bash | React | Express | Node.js | Android Studio | Firebase | MongoDB | AWS | Linux. And interests in: Full Stack Engineering | UIX Design | Mobile App Development | General Purpose Software / Application Development | Embedded Systems | Machine Learning & Artificial Intelligence | Cloud Engineering | DevOps.",
+    "primary": [
+      {
+        "text": "I'm Darnell, a "
+      },
+      {
+        "text": "Computer Science major and Software Engineer",
+        "bold": true
+      },
+      {
+        "text": " from "
+      },
+      {
+        "text": "Trinidad",
+        "bold": true
+      },
+      {
+        "text": ". I help bridge the gap between creatives and engineers, taking ideas from concept to deployment. I've worked with teams of all sizes, from "
+      },
+      {
+        "text": "startups to Fortune 500 companies",
+        "bold": true
+      },
+      {
+        "text": " like "
+      },
+      {
+        "text": "GSPEN, CIBC Caribbean, and Microsoft",
+        "bold": true
+      },
+      {
+        "text": ", always eager to learn and build impactful tech."
+      }
+    ],
+    "skills": {
+      "languages": [
+        "C++",
+        "C",
+        "TypeScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "C#",
+        "SQL",
+        "Kotlin"
+      ],
+      "technologies": [
+        "Git / GitHub",
+        "Bash",
+        "React",
+        "Express",
+        "Node.js",
+        "Bun",
+        "Android Studio",
+        "Firebase",
+        "MongoDB",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Linux"
+      ],
+      "interests": [
+        "Full Stack Engineering",
+        "UI/UX Design",
+        "Mobile App Development",
+        "General Purpose Software / Application Development",
+        "Embedded Systems",
+        "Machine Learning & Artificial Intelligence",
+        "Cloud Engineering",
+        "DevOps"
+      ]
+    },
     "secondary": "I am also an artist and competitive archer for many years!"
   },
   "projects": {

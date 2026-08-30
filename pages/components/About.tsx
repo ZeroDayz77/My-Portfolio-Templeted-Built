@@ -2,6 +2,20 @@ import React from "react";
 import config from "../index.json";
 import Image from "next/image";
 
+const RichText = ({ content }) => {
+  return (
+    <>
+      {content.map((part, index) =>
+        part.bold ? (
+          <strong key={index}>{part.text}</strong>
+        ) : (
+          <React.Fragment key={index}>{part.text}</React.Fragment>
+        )
+      )}
+    </>
+  );
+};
+
 const About = () => {
   const about = config.about;
   return (
@@ -19,10 +33,23 @@ const About = () => {
         </div>
         <div className="pt-8 md:py-0 md:w-1/2 text-white md:ml-4 text-center md:text-left">
           <div className="about__primary">
-            <span>{about.primary}</span>
+            <RichText content={about.primary} />
           </div>
-          <div className="about__primary">
-            <span>{about.primary2}</span>
+          <div className="about__primary mt-4">
+            <p>
+              <strong>Languages:</strong>{" "}
+              {about.skills.languages.join(" | ")}
+            </p>
+
+            <p className="mt-3">
+              <strong>Technologies:</strong>{" "}
+              {about.skills.technologies.join(" | ")}
+            </p>
+
+            <p className="mt-3">
+              <strong>Interests:</strong>{" "}
+              {about.skills.interests.join(" | ")}
+            </p>
           </div>
           <div className="mt-6">
             <span>{about.secondary}</span>
