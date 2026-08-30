@@ -2,7 +2,12 @@ import React from "react";
 import config from "../index.json";
 import Image from "next/image";
 
-const RichText = ({ content }) => {
+type RichTextPart = {
+  text: string;
+  bold?: boolean;
+};
+
+const RichText = ({ content }: { content: RichTextPart[] }) => {
   return (
     <>
       {content.map((part, index) =>
